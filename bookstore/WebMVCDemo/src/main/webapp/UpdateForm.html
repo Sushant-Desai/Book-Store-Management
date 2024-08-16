@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Book</title>
+  <style>
+    body {
+    
+    background-color: #f2f2f2;
+  
+  }
+  </style>
+ 
+  
+</head>
+<body>
+
+  <form action="./UpdateBookServlet" method="post">
+    <h3 align="center">Update Book Information</h3>
+    
+    <label for="bookId">Book ID:</label>
+    <input type="text" id="bookId" name="bid" ><br><br>
+    
+    <label for="bname">Book Title/Name:</label>
+    <input type="text" id="bname" name="bname" ><br><br>
+    
+    <label for="author">Book Author:</label>
+    <input type="text" id="author" name="author" ><br><br>
+
+    <label for="year">Publication Year:</label>
+    <input type="text" id="year" name="year" ><br><br>
+
+    <label for="price">Book Price:</label>
+    <input type="text" id="price" name="price" ><br><br>
+	
+	
+    <button type="submit">Update Book</button>
+  </form>
+
+</body>
+</html>
